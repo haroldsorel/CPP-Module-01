@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: haroldsorel <marvin@42.fr>                 +#+  +:+       +#+        */
+/*   By: hsorel <hsorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 16:58:49 by haroldsorel       #+#    #+#             */
-/*   Updated: 2025/01/30 16:58:50 by haroldsorel      ###   ########.fr       */
+/*   Updated: 2025/03/17 16:43:25 by hsorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,12 @@ void    ft_replace(std::string search, std::string replace, std::ifstream &in, s
 
     while (std::getline(in, line))
     {
-        while ((pos = line.find(search)) != std::string::npos && !search.empty())
+        pos = 0;
+        while ((pos = line.find(search, pos)) != std::string::npos && !search.empty())
         {
             line.erase(pos, search.length());
             line.insert(pos, replace);
+            pos += replace.length();
         }
         out << line;
         if (!in.eof())
@@ -64,6 +66,7 @@ int main(int argc, char **argv)
     if (!outfile)
     {
         std::cout << "outFile Error!" << std::endl;
+        infile.close();
         return (1);
     }
 

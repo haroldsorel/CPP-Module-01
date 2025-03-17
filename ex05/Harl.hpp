@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: haroldsorel <marvin@42.fr>                 +#+  +:+       +#+        */
+/*   By: hsorel <hsorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 20:02:45 by haroldsorel       #+#    #+#             */
-/*   Updated: 2025/01/30 20:02:46 by haroldsorel      ###   ########.fr       */
+/*   Updated: 2025/03/17 17:00:26 by hsorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #pragma once
 
 #include <string>

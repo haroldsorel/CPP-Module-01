@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: haroldsorel <marvin@42.fr>                 +#+  +:+       +#+        */
+/*   By: hsorel <hsorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:53:54 by haroldsorel       #+#    #+#             */
-/*   Updated: 2025/01/30 18:53:55 by haroldsorel      ###   ########.fr       */
+/*   Updated: 2025/03/17 17:02:33 by hsorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "Harl.cpp"
+
+#include "Harl.hpp"
 
 int main()
 {

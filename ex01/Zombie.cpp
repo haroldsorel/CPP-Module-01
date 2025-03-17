@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: haroldsorel <marvin@42.fr>                 +#+  +:+       +#+        */
+/*   By: hsorel <hsorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 19:12:18 by haroldsorel       #+#    #+#             */
-/*   Updated: 2025/01/29 19:12:19 by haroldsorel      ###   ########.fr       */
+/*   Updated: 2025/03/17 14:49:03 by hsorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "Zombie.hpp"
 
 Zombie::Zombie(void)

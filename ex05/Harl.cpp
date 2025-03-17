@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Harold.hpp                                         :+:      :+:    :+:   */
+/*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: haroldsorel <marvin@42.fr>                 +#+  +:+       +#+        */
+/*   By: hsorel <hsorel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 18:53:47 by haroldsorel       #+#    #+#             */
-/*   Updated: 2025/01/30 18:53:49 by haroldsorel      ###   ########.fr       */
+/*   Updated: 2025/03/17 17:15:30 by hsorel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "Harl.hpp"
 
 Harl::Harl(void)
@@ -32,7 +33,7 @@ void    Harl::info(void)
 
 void    Harl::warning(void)
 {
-    std::cout << "I think I deserve to have some extra bacon for free. I’ve been coming foryears whereas you started working here since last month." << std::endl;
+    std::cout << "I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here since last month." << std::endl;
 }
 
 void    Harl::error(void)
